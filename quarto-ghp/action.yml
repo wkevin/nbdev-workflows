@@ -30,7 +30,7 @@ runs:
       run: |
         set -ux
         python -m pip install --upgrade pip
-        python -m pip install matplotlib pandas numpy pyecharts
+        python -m pip install matplotlib pandas numpy pyecharts snapshot_selenium
         if [ $USE_PRE ]; then
           pip install -Uq git+https://github.com/fastai/ghapi.git
           pip install -Uq git+https://github.com/fastai/fastcore.git
